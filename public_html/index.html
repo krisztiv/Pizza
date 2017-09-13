@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <form action="http://web.uni-corvinus.hu/~fodor/vissza.php" method="post">  
+        Név: <input type="text" name="name"><br/>
+        Cím: <input type="text" name="address"><br/><br/>
+        
+        
+        <input type="radio" name="purchaseType" value="Kiszallitas" checked>Kiszállítás<br/>
+        <input type="radio" name="purchaseType" value="Elvitel">Elvitel<br/><br/>
+        
+        Milyen pizzát akarsz?<br/>
+        <input type="checkbox" name="type" value="margherita">Margarita<br/>
+        <input type="checkbox" name="type" value="hawaiian">Hawaii<br/>
+        <input type="checkbox" name="type" value="pepperoni">Pepperoni<br/><br/>
+        
+        Pizza mérete:<br/>
+        <select>
+            <option value="nagy">Nagy</option>
+            <option value="kozepes">Közepes</option>
+            <option value="kicsi">Kicsi</option>
+        </select><br/><br/>
+        
+        <input type="submit">
+        </form>
+    </body>
+</html>
